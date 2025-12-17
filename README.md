@@ -3,13 +3,10 @@ Proyecto de Bases de Datos - Práctica 5 (E-Commerce con Docker y PostgreSQL)
 
 # ERD
 ```
-Cliente (1) ──────< (N) Pedido (1) ──────< (N) DetallePedido (N) >────── (1) Producto (N) >────── (1) Categoria
-                        │                                                        
-                        ├──────< (N) Pago                                        
-                        │                                                        
-                        └──────< (1) Envio                                       
+                                    
+<img width="1531" height="525" alt="tienda en linea drawio (1)" src="https://github.com/user-attachments/assets/08d2329c-d1ec-47dc-a1bd-b34a6814fa73" />
+
 ```
-<img width="1531" height="518" alt="image" src="https://github.com/user-attachments/assets/1b0b3fe8-163e-4884-896c-6cf0be5c4336" />
 
 ### Cardinalidades
 
