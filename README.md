@@ -620,8 +620,17 @@ ANALYZE DetallePedido;
 ANALYZE Pago;
 ANALYZE Envio;
 
--- ============================================================================
--- FIN DEL SCRIPT DDL
--- ============================================================================
+---
 
-COMMENT ON DATABASE ecommerce_db IS 'Sistema E-Commerce - Práctica 5 Bases de Datos';
+# POBLADO LEVE
+
+| MÉTRICA | NIVEL 1 | NIVEL 2 | NIVEL 3 |
+|---------|---------|---------|---------|
+| Total de registros |  |  |  |
+| Tiempo de ejecución |  | |  |
+| Registros/segundo |  |  | |
+| Uso de memoria (MB) |  |  |  |
+| Tamaño BD (MB) |  |  | |
+
+
+
