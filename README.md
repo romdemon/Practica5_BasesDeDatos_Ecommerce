@@ -2,11 +2,11 @@
 Proyecto de Bases de Datos - Práctica 5 (E-Commerce con Docker y PostgreSQL)
 
 # ERD
-```
+
                                     
 <img width="1531" height="525" alt="tienda en linea drawio (1)" src="https://github.com/user-attachments/assets/08d2329c-d1ec-47dc-a1bd-b34a6814fa73" />
 
-```
+
 
 ### Cardinalidades
 
