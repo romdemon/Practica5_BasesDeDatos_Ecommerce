@@ -9,6 +9,7 @@ Cliente (1) ──────< (N) Pedido (1) ──────< (N) DetallePe
                         │                                                        
                         └──────< (1) Envio                                       
 ```
+<img width="1531" height="518" alt="image" src="https://github.com/user-attachments/assets/1b0b3fe8-163e-4884-896c-6cf0be5c4336" />
 
 ### Cardinalidades
 
