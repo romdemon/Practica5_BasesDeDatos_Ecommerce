@@ -1,8 +1,25 @@
 # Practica5_BasesDeDatos_Ecommerce
 Proyecto de Bases de Datos - Práctica 5 (E-Commerce con Docker y PostgreSQL)
 
-## ERD
+# ERD
+```
+Cliente (1) ──────< (N) Pedido (1) ──────< (N) DetallePedido (N) >────── (1) Producto (N) >────── (1) Categoria
+                        │                                                        
+                        ├──────< (N) Pago                                        
+                        │                                                        
+                        └──────< (1) Envio                                       
+```
 
+### Cardinalidades
+
+1. **Cliente - Pedido**: 1:N (Un cliente puede tener múltiples pedidos)
+2. **Pedido - DetallePedido**: 1:N (Un pedido tiene múltiples productos)
+3. **Producto - DetallePedido**: 1:N (Un producto puede estar en múltiples pedidos)
+4. **Categoria - Producto**: 1:N (Una categoría contiene múltiples productos)
+5. **Pedido - Pago**: 1:N (Un pedido puede tener múltiples pagos)
+6. **Pedido - Envio**: 1:1 (Un pedido tiene un único envío)
+
+---
 
 # DICCIONARIO DE DATOS
 
@@ -250,39 +267,3 @@ Proyecto de Bases de Datos - Práctica 5 (E-Commerce con Docker y PostgreSQL)
 **Nota**: Fecha_Envio es NULL hasta que el pedido sea efectivamente enviado.
 
 ---
-
-## 🔄 Relaciones Entre Tablas
-
-### Diagrama de Relaciones
-
-```
-Cliente (1) ──────< (N) Pedido (1) ──────< (N) DetallePedido (N) >────── (1) Producto (N) >────── (1) Categoria
-                        │                                                        
-                        ├──────< (N) Pago                                        
-                        │                                                        
-                        └──────< (1) Envio                                       
-```
-
-### Cardinalidades
-
-1. **Cliente - Pedido**: 1:N (Un cliente puede tener múltiples pedidos)
-2. **Pedido - DetallePedido**: 1:N (Un pedido tiene múltiples productos)
-3. **Producto - DetallePedido**: 1:N (Un producto puede estar en múltiples pedidos)
-4. **Categoria - Producto**: 1:N (Una categoría contiene múltiples productos)
-5. **Pedido - Pago**: 1:N (Un pedido puede tener múltiples pagos)
-6. **Pedido - Envio**: 1:1 (Un pedido tiene un único envío)
-
----
-
-## 🔐 Reglas de Integridad Referencial
-
-### ON DELETE Policies
-
-| Tabla Hija | Tabla Padre | Acción |
-|------------|-------------|---------|
-| Producto | Categoria | RESTRICT (No permite eliminar categoría con productos) |
-| Pedido | Cliente | RESTRICT (No permite eliminar cliente con pedidos) |
-| DetallePedido | Pedido | CASCADE (Elimina detalles al eliminar pedido) |
-| DetallePedido | Producto | RESTRICT (No permite eliminar producto con ventas) |
-| Pago | Pedido | CASCADE (Elimina pagos al eliminar pedido) |
-| Envio | Pedido | CASCADE (Elimina envío al eliminar pedido) |
