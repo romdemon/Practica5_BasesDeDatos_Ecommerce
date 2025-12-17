@@ -4,10 +4,7 @@ Proyecto de Bases de Datos - Práctica 5 (E-Commerce con Docker y PostgreSQL)
 ## ERD
 
 
-## DICCIONARIO DE DATOS
-
-
-## DDL
+# DICCIONARIO DE DATOS
 
 ## 📊 Tabla: Cliente
 
