@@ -1,0 +1,15 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "E-Commerce PostgreSQL",
+      "Group": "Práctica 5",
+      "Host": "postgres",
+      "Port": 5432,
+      "MaintenanceDB": "ecommerce_db",
+      "Username": "ecommerce_user",
+      "Password": "ecommerce_pass",
+      "SSLMode": "prefer",
+      "Comment": "Base de datos del sistema E-Commerce - Práctica 5"
+    }
+  }
+}
