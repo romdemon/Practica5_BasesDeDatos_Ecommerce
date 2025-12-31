@@ -653,6 +653,49 @@ ANALYZE Envio;
 | Uso de memoria (MB) | 4.02 | 5.91 | 4.14 |
 | Tamaño BD (MB) | 8.72 | 24.20 | 1146.47 |
 
+# OPERACIONES DML AVANZADAS
+
+## 3.1 Consultas SELECT 
+
+<img width="1600" height="641" alt="1  JOINS MÚLTIPLES (3+ tablas)" src="https://github.com/user-attachments/assets/9e736dcf-8fa6-4a8b-8ec7-97603d94c209" />
+<img width="1303" height="749" alt="2  SUBCONSULTA CORRELACIONADA" src="https://github.com/user-attachments/assets/f890489d-43fa-4f47-9ec0-2cdc88e23401" />
+<img width="1317" height="749" alt="3  FUNCIONES DE AGREGACIÓN CON GROUP BY Y HAVING" src="https://github.com/user-attachments/assets/ba366cbe-c022-404b-9ebd-698b718babcd" />
+<img width="1216" height="744" alt="4  WINDOW FUNCTIONS (RANK, ROW_NUMBER, PARTITION BY)" src="https://github.com/user-attachments/assets/4e78f9f3-4808-4af5-b78f-4dedd3ec5b20" />
+<img width="926" height="745" alt="5  OPERACIONES DE CONJUNTOS (UNION)" src="https://github.com/user-attachments/assets/695fbb68-444d-43cb-aab0-6064aec5da68" />
+<img width="1429" height="742" alt="6  COMMON TABLE EXPRESSIONS (CTEs)" src="https://github.com/user-attachments/assets/7bf46040-1926-465c-b46e-9ded537860ef" />
+<img width="1100" height="752" alt="7  CONSULTAS CON CASE" src="https://github.com/user-attachments/assets/bcb6bd4c-ceea-4609-aa27-59a4f6be5273" />
+<img width="1258" height="750" alt="8  ANÁLISIS TEMPORAL CON FECHAS" src="https://github.com/user-attachments/assets/2796bfaa-82a5-4119-80b5-9d3d9fb25778" />
+<img width="1065" height="752" alt="9  BÚSQUEDA DE TEXTO CON ILIKE" src="https://github.com/user-attachments/assets/b9676de3-e8b0-4f72-8408-869208039944" />
+<img width="1600" height="680" alt="10  ANÁLISIS COMPLEJO CON MÚLTIPLES JOINS Y AGREGACIONES" src="https://github.com/user-attachments/assets/6e4a2e30-dca2-4800-8eb2-6776f55bbe5d" />
+
+## 3.2 Operaciones INSERT
+
+<img width="972" height="494" alt="INSERT con subconsulta" src="https://github.com/user-attachments/assets/967ae4b5-34a3-42b7-9000-77ef74d65082" />
+<img width="959" height="515" alt="INSERT multiple" src="https://github.com/user-attachments/assets/8d1220a2-e07e-4cef-b648-0832b1276122" />
+<img width="983" height="560" alt="INSERT con valores calculados" src="https://github.com/user-attachments/assets/181ea7f8-a002-4b60-8ef1-f18ee96712ea" />
+<img width="882" height="469" alt="UPSERT (INSERT   ON CONFLICT)" src="https://github.com/user-attachments/assets/e464e6c1-c3a8-49a5-81af-f8281f58719f" />
+
+## 3.3 Operaciones UPDATE
+
+<img width="590" height="477" alt="UPDATE_JOIN" src="https://github.com/user-attachments/assets/7b827e06-6d1e-4ac5-b378-5ef07a6c27f3" />
+<img width="1148" height="485" alt="UPDATE condicional con CASE" src="https://github.com/user-attachments/assets/9649a0df-9ec2-4b9d-9cdb-b0c1eaf6222b" />
+<img width="610" height="507" alt="UPDATE masivo" src="https://github.com/user-attachments/assets/3abf6288-3281-4b81-aeaa-3b31a7a8cf93" />
+<img width="713" height="623" alt="UPDATE con subconsulta" src="https://github.com/user-attachments/assets/8e0a5faf-19a7-4cfa-8d48-5fe0e195bf57" />
+
+## 3.4 Operaciones DELETE
+
+<img width="881" height="424" alt="DELETE con subconsulta" src="https://github.com/user-attachments/assets/be1512b7-962f-4dae-8d21-9eb43778ebc6" />
+<img width="988" height="497" alt="DELETE con JOIN (usando subconsulta)" src="https://github.com/user-attachments/assets/aebc0353-9818-4df3-9d4e-4a820d20034d" />
+<img width="838" height="508" alt="Soft DELETE (marcado lógico)" src="https://github.com/user-attachments/assets/830355db-e97b-4b0a-9cdf-05029176a1ea" />
+<img width="753" height="558" alt="ARCHIVADO" src="https://github.com/user-attachments/assets/4ed69fd2-17bb-4200-a599-d1488619b9e9" />
+
+## 3.5 Transacciones
+
+<img width="631" height="744" alt="Transacción con BEGINCOMMITROLLBACK" src="https://github.com/user-attachments/assets/21c84e32-a3e6-4af9-b549-039031b181cc" />
+<img width="809" height="485" alt="Transacción con SAVEPOINTs" src="https://github.com/user-attachments/assets/2243583d-ba7b-40b3-ad64-8fa6b1e469fd" />
+<img width="1059" height="516" alt="Control de errores y rollback automático" src="https://github.com/user-attachments/assets/883a996c-1f57-4ceb-a59a-d83f8113f1dd" />
+<img width="854" height="559" alt="Bloqueo optimista con FOR UPDATE" src="https://github.com/user-attachments/assets/d005ab9f-4eb8-48c8-b335-1669383152f5" />
+
 
 # HECHO POR:
 - Estrada González Naomi Judith
