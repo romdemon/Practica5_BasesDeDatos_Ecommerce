@@ -620,7 +620,7 @@ ANALYZE Envio;
 
 ---
 
-# POBLADO LEVE
+# TABLA COMPARATIVA
 
 | MÉTRICA | NIVEL 1 | NIVEL 2 | NIVEL 3 |
 |---------|---------|---------|---------|
