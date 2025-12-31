@@ -624,11 +624,11 @@ ANALYZE Envio;
 
 | MÉTRICA | NIVEL 1 | NIVEL 2 | NIVEL 3 |
 |---------|---------|---------|---------|
-| Total de registros |  |  |  |
-| Tiempo de ejecución |  | |  |
-| Registros/segundo |  |  | |
-| Uso de memoria (MB) |  |  |  |
-| Tamaño BD (MB) |  |  | |
+| Total de registros | 1167 | 74,367 | ~3,600,000 |
+| Tiempo de ejecución | 3.44 segundos | 39.26 segundos | ~5-10 minutos |
+| Registros/segundo | 339.66 | 1,894.17 | ~10,000 |
+| Uso de memoria (MB) | 4.02 | 6.45 | ~50-100 |
+| Tamaño BD (MB) | 8.72 | 22 | ~500-1000 |
 
 
 # HECHO POR:
