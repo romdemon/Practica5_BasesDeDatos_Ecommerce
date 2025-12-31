@@ -620,6 +620,29 @@ ANALYZE Envio;
 
 ---
 
+# CAPTURAS DE EJECUCIÓN
+
+## Poblado leve
+
+<img width="1437" height="921" alt="poblado_leve" src="https://github.com/user-attachments/assets/8d4b4e28-0864-4b29-bf48-8babcffcc865" />
+
+<img width="1441" height="865" alt="poblado_leve2" src="https://github.com/user-attachments/assets/200d7d92-5b10-4a39-b2ab-5c3444a9ef03" />
+
+
+## Poblado moderado
+
+<img width="1457" height="918" alt="poblado_moderado" src="https://github.com/user-attachments/assets/b345c1d9-1b19-4395-8c61-0e2d195febb0" />
+
+<img width="1438" height="926" alt="poblado_moderado2" src="https://github.com/user-attachments/assets/bafbe858-1f22-45a8-82ad-60919a5caae8" />
+
+
+## Poblado masivo
+
+<img width="1524" height="781" alt="poblado_masivo" src="https://github.com/user-attachments/assets/2177e8ba-41a0-4484-a5c5-6f3a048596a6" />
+
+<img width="1522" height="834" alt="poblado_masivo2" src="https://github.com/user-attachments/assets/0e2ec091-721e-4356-9480-b74c9ca24939" />
+
+
 # TABLA COMPARATIVA
 
 | MÉTRICA | NIVEL 1 | NIVEL 2 | NIVEL 3 |
