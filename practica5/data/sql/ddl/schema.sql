@@ -1,11 +1,3 @@
--- ============================================================================
--- PRÁCTICA 5 - SISTEMA E-COMMERCE
--- Definición del Esquema (DDL)
--- Autor: [Tu Nombre]
--- Fecha: Diciembre 2025
--- Base de Datos: PostgreSQL 15+
--- ============================================================================
-
 -- Eliminar tablas si existen (para reinicialización)
 DROP TABLE IF EXISTS Pago CASCADE;
 DROP TABLE IF EXISTS Envio CASCADE;
