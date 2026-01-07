@@ -265,7 +265,6 @@ Proyecto de Bases de Datos - Práctica 5 (E-Commerce con Docker y PostgreSQL)
 **Nota**: Fecha_Envio es NULL hasta que el pedido sea efectivamente enviado.
 
 ---
-
 # DDL
 -- Eliminar tablas si existen (para reinicialización)
 DROP TABLE IF EXISTS Pago CASCADE;
