@@ -266,6 +266,8 @@ Proyecto de Bases de Datos - Práctica 5 (E-Commerce con Docker y PostgreSQL)
 
 ---
 # DDL
+
+```sql
 -- Eliminar tablas si existen (para reinicialización)
 DROP TABLE IF EXISTS Pago CASCADE;
 DROP TABLE IF EXISTS Envio CASCADE;
@@ -279,7 +281,7 @@ DROP TABLE IF EXISTS Cliente CASCADE;
 -- TABLA: Cliente
 -- Descripción: Almacena información de clientes del e-commerce
 -- ============================================================================
-CREATE TABLE Cliente (
+-- CREATE TABLE Cliente (
     Id_Cliente SERIAL PRIMARY KEY,
     Nombre VARCHAR(100) NOT NULL,
     Email VARCHAR(150) NOT NULL UNIQUE,
@@ -616,7 +618,7 @@ ANALYZE Pedido;
 ANALYZE DetallePedido;
 ANALYZE Pago;
 ANALYZE Envio;
-
+```
 ---
 
 # CAPTURAS DE EJECUCIÓN
